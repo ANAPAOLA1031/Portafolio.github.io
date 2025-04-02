@@ -18,7 +18,7 @@ import pagefind from "astro-pagefind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: Portafolio.github.io.site,
+  site: Portafolio.github.io,
   integrations: [
     tailwind(),
     svelte(),
